@@ -20,4 +20,6 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
             }
         }
     }
-} //gaykenf
+
+    fun restoreMana(amount: Int) { }
+}

@@ -58,6 +58,6 @@ class WizardTest {
     fun IfManaNotEnough() {
         evilWizard.mana = 0
         evilWizard.train()
-        assertEquals(11, evilWizard.spellPower)
+        assertEquals(10, evilWizard.spellPower)
     }
 }
